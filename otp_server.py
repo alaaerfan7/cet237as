@@ -8,10 +8,10 @@ s = socket.socket()
 port = 6969
 
 s.bind(('',port))
-print ("socket binded to %s" %(port))
+# print ("socket binded to %s" %(port))
 
 s.listen(5)
-print ("socket is listening ")
+# print ("socket is listening ")
 
 
 
@@ -22,8 +22,6 @@ password=input('please enter your password')
 while password!="1234":
     password=input("please input the correct password to access ")
 
-# import library
-import math, random
 
 # function to generate OTP
 def generateOTP() :
